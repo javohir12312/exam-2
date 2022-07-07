@@ -1343,13 +1343,21 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #1B262F;
+  background-image: url("../../img/circle.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 940px) -200px;
 }
 
 .footer__logo-and-list {
   display: flex;
 }
 
+.footer__logo {
+  display: inline-block;
+}
+
 .footer__logo-img {
+  display: block;
   transition: 0.3s ease;
 }
 
@@ -1410,6 +1418,16 @@ body {
   margin-left: 50px;
 }
 
+@media only screen and (max-width: 890px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1B262F;
+    background-image: url("../../img/circle.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 740px) -200px;
+  }
+}
 @media only screen and (max-width: 490px) {
   .footer__logo-and-list {
     display: block;
@@ -1428,5 +1446,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1B262F;
+    background-image: url("../../img/circle.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 30px) 130px;
   }
 }/*# sourceMappingURL=main.css.map */
