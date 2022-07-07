@@ -1,0 +1,66 @@
+.header-site{
+  background-color: #EDF3F8;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-size: 780px;
+  background-position: calc(50% + 400px) -200px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-site_button{
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ba4270;
+  transition: 0.3s ease;
+}
+
+.header-site_button:hover{
+  background-color: #DA6D97;
+}
+
+.header-site_button:active{
+  background-color: #DCA0B7;
+}
+
+.header-site__haburger{
+  display: none;
+}
+
+
+
+@include breakpoint-down($screen-size: 620px) {
+  .header-site_button{
+    display: none;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ba4270;
+    transition: 0.3s ease;
+  }
+
+  .header-site__haburger{
+    display: block;
+  }
+
+
+}
+
+@include breakpoint-down($screen-size: 830px){
+  .header-site{
+    background-color: #EDF3F8;
+    background-image: url('../img/circle.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: calc(50% - 0px) -400px;
+  }
+}

@@ -1,0 +1,147 @@
+.simple{
+  background-color: #EDF3F8;
+  padding-bottom: 100px;
+  background-image: url('../../img/circle.png');
+  background-repeat: no-repeat;
+  background-size: 780px;
+  background-position: calc(50% + 600px) -85px;
+}
+
+.simple__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.simple__text{
+  max-width: 445px;
+}
+
+.simple__heading{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0px;
+  color: #36536B;
+}
+
+.simple__text-child{
+  max-width: 400px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+}
+
+.simple__phones-top{
+  display: none;
+}
+
+.simple__phones-end{
+  display: block;
+  margin-top: 100px;
+}
+
+.simple__img{
+  max-width: 263px;
+  height: 500px;
+  margin-right: 20px;
+  margin-left: 40px;
+  border-radius: 25px;
+}
+
+.simple__img-check{
+  max-width: 263px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+@include breakpoint-down($screen-size: 1290px){
+  .simple{
+    background-color: #EDF3F8;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 780px;
+    background-position: calc(50% + 500px) ;
+  }
+}
+
+@include breakpoint-down($screen-size: 1080px){
+  .simple{
+    background-color: #EDF3F8;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 780px;
+    background-position: calc(50% + 600px) ;
+  }
+
+  .simple__content{
+    display: block;
+  }
+  
+
+  .simple__phones-top{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .simple__phones-end{
+    display: none;
+    margin-top: 100px;
+  }
+  
+  .simple__text{
+    width: 300px;
+    margin: 0%;
+    display: block;
+    width: 445px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  
+  
+}
+
+@include breakpoint-down($screen-size: 570px) {
+  .simple__img{
+    max-width: 138px;
+    height: 300px;
+    border-radius: 25px;
+  }
+
+  .simple__text{
+    width: 300px;
+  }
+
+  .simple__img-check{
+    max-width: 168px;
+    height: 300px;
+    border-radius: 25px;
+  }
+
+  .simple__img-check{
+    max-width: 138px;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 25px;
+  }
+
+  .simple__heading{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .simple__text-child{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

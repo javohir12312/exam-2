@@ -1,0 +1,52 @@
+.header-inner__logo-and-nav{
+  display: flex;  
+  align-items: center;
+}
+
+.header-inner_logo-and-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link__img{
+  display: block;
+  transition: 0.3s ease;
+}
+
+.logo-link__img:hover{
+  transform: scale(1.2);
+}
+
+.header-inner_logo-link{
+  display: inline-block;
+}
+
+.nav{
+  margin-left: 70px;
+}
+
+.nav__list{
+  @include list-unstyled;
+}
+
+.nav-inner__item{
+  margin-right: 30px;
+}
+
+.nav__link{
+  text-decoration: none;
+  color:  #6D8395;
+  transition: 0.3s ease ;
+}
+
+.nav__link:hover{
+  color: #36536B;
+  ;
+}
+
+@include breakpoint-down($screen-size: 620px) {
+  .nav{
+    display: none;
+    margin-left: 70px;
+  }
+}
