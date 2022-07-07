@@ -447,6 +447,15 @@ body {
     background-position: calc(50% - 0px) -400px;
   }
 }
+@media only screen and (max-width: 900px) {
+  .header-site {
+    background-color: #EDF3F8;
+    background-image: url("../img/circle.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: calc(50% - 0px) -500px;
+  }
+}
 .header-inner__logo-and-nav {
   display: flex;
   align-items: center;
@@ -889,6 +898,17 @@ body {
   }
 }
 @media only screen and (max-width: 990px) {
+  .intro {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #1B262F;
+    color: white;
+    background-image: url("../../img/circle.png");
+    background-size: 780px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 0px) -400px;
+  }
+
   .intro__content {
     display: flex;
     flex-direction: column-reverse;
@@ -902,6 +922,17 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .intro {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #1B262F;
+    color: white;
+    background-image: url("../../img/circle.png");
+    background-size: 780px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 0px) -500px;
+  }
+
   .intro__links-company {
     max-width: 300px;
     height: 130px;
@@ -1403,13 +1434,13 @@ body {
   margin: 5px;
 }
 
-.footer-logo path {
+.footer-logo Path {
   color: white;
   transition: 0.3s ease;
 }
 
 .footer-logo:hover path {
-  fill: red;
+  fill: #db6256;
 }
 
 .footer-nav {

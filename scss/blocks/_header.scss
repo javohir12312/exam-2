@@ -64,3 +64,13 @@
     background-position: calc(50% - 0px) -400px;
   }
 }
+
+@include breakpoint-down($screen-size: 900px){
+  .header-site{
+    background-color: #EDF3F8;
+    background-image: url('../img/circle.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: calc(50% - 0px) -500px;
+  }
+}
