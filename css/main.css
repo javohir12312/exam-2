@@ -634,6 +634,7 @@ body {
 }
 
 .hero__contact-us {
+  text-decoration: none;
   color: #36536B;
 }
 
@@ -714,15 +715,15 @@ body {
   }
 
   .hero__input::-moz-placeholder {
-    padding-left: 120px;
+    padding-left: 100px;
   }
 
   .hero__input:-ms-input-placeholder {
-    padding-left: 120px;
+    padding-left: 100px;
   }
 
   .hero__input::placeholder {
-    padding-left: 120px;
+    padding-left: 100px;
   }
 
   .hero__button {
@@ -758,15 +759,15 @@ body {
   }
 
   .hero__input::-moz-placeholder {
-    padding-left: 80px;
+    padding-left: 50px;
   }
 
   .hero__input:-ms-input-placeholder {
-    padding-left: 80px;
+    padding-left: 50px;
   }
 
   .hero__input::placeholder {
-    padding-left: 80px;
+    padding-left: 50px;
   }
 
   .hero__button {
