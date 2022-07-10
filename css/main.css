@@ -618,7 +618,7 @@ body {
   .hero__inner {
     display: block;
   }
-  .hero_phone-end {
+  .hero__phone-end {
     display: none;
   }
   .hero_phone-start {
@@ -907,7 +907,7 @@ body {
 }
 
 .easy__codes-img {
-  max-width: 440px;
+  max-width: 240px;
   padding-top: 150px;
 }
 
