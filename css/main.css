@@ -952,7 +952,7 @@ body {
   .easy__centent {
     display: block;
   }
-  .easy_codes-img {
+  .easy__codes-img {
     max-width: 340px;
     height: 250px;
     display: block;
@@ -990,7 +990,7 @@ body {
   }
 }
 @media only screen and (max-width: 440px) {
-  .easy_codes-img {
+  .easy__codes-img {
     max-width: 280px;
     height: 200px;
     display: block;

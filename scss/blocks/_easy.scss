@@ -58,7 +58,7 @@
     display: block;
   }
   
-  .easy_codes-img{
+  .easy__codes-img{
     max-width: 340px;
     height: 250px;
     display: block;
@@ -101,7 +101,7 @@
 }
 
 @include breakpoint-down($screen-size: 440px) {
-  .easy_codes-img{
+  .easy__codes-img{
     max-width: 280px;
     height: 200px;
     display: block;
