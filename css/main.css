@@ -360,7 +360,7 @@ body {
   background-color: #EDF3F8;
   background-image: url("../img/circle.png");
   background-repeat: no-repeat;
-  background-size: 780px;
+  background-size: 795px;
   background-position: calc(50% + 400px) -200px;
 }
 
@@ -421,8 +421,8 @@ body {
     background-color: #EDF3F8;
     background-image: url("../img/circle.png");
     background-repeat: no-repeat;
-    background-size: 900px;
-    background-position: calc(50% - 0px) -500px;
+    background-size: 835px;
+    background-position: calc(50% - 0px) -400px;
   }
 }
 .header-inner__logo-and-nav {
